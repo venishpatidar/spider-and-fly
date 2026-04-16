@@ -8,12 +8,12 @@ The Spiders and Flies problem from Bertsekas, D. P. 2024. A Course in Reinforcem
 Utilized Manhattan distance to the nearest fly as the base policy
 
 ## Oridnary Rollout acting on Base Policy
-![Ordinary Rollout](./outputs/base_policy.gif?raw=true "Ordinary Rollout")<br>
+![Ordinary Rollout](./outputs/ordinary_rollout.gif?raw=true "Ordinary Rollout")<br>
 Computed and compared Q-factors for each possible move of each spider.
 
 
 ## Multi Agent Rollout acting on Base Policy
-![Multi Agent Rollout](./outputs/base_policy.gif?raw=true "Multi Agent Rollout")<br>
+![Multi Agent Rollout](./outputs/multiagent_rollout.gif?raw=true "Multi Agent Rollout")<br>
 For each spider, we compute and compare (taking into consideration all the
 controls of the current spider) the Q-factor for the current spider and assume the future spiders will act according to base policy, and the previous spider has already chosen their control.
 
